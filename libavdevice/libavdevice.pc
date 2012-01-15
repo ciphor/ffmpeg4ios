@@ -1,0 +1,14 @@
+prefix=/opt/ffmpeg-0.7-new
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 53.0.0
+Requires: libavformat = 53.0.3
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavdevice -lws2_32 -lm -lpthread -lz -lpsapi
+Libs.private: 
+Cflags: -I${includedir}

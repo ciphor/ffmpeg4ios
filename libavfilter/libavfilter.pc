@@ -1,0 +1,14 @@
+prefix=/opt/ffmpeg-0.7-new
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg video filtering library
+Version: 2.0.0
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavfilter -lws2_32 -lm -lpthread -lz -lpsapi
+Libs.private: 
+Cflags: -I${includedir}
