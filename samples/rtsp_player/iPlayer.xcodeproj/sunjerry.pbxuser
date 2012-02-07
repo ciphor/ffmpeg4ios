@@ -1,0 +1,69 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* vMEye */ = {
+		activeExec = 0;
+		executables = (
+			C6729E3A1174B0C20084A52D /* vMEye */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = C6729E3A1174B0C20084A52D /* vMEye */;
+		activeSDKPreference = iphoneos3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* vMEye */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* vMEye */,
+		);
+		codeSenseManager = C6729E411174B0E10084A52D /* Code sense */;
+		executables = (
+			C6729E3A1174B0C20084A52D /* vMEye */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 292860098;
+			PBXWorkspaceStateSaveDate = 292860098;
+		};
+		sourceControlManager = C6729E401174B0E10084A52D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* iPlayer-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, -5}, {1159, 778}}";
+		};
+	};
+	C6729E3A1174B0C20084A52D /* vMEye */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = vMEye;
+		sourceDirectories = (
+		);
+	};
+	C6729E401174B0E10084A52D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	C6729E411174B0E10084A52D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

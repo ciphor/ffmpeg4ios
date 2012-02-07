@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B55726F14E0F4580023BFA2 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B55726E14E0F4580023BFA2 /* libavcodec.a */; };
+		0B55727114E0F46B0023BFA2 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B55727014E0F46B0023BFA2 /* libavformat.a */; };
+		0B55727314E0F4C30023BFA2 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B55727214E0F4C30023BFA2 /* libavdevice.a */; };
+		0B55727514E0F4CF0023BFA2 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B55727414E0F4CF0023BFA2 /* libswscale.a */; };
+		0B55727714E0F4DA0023BFA2 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B55727614E0F4DA0023BFA2 /* libavutil.a */; };
+		1D3623260D0F684500981E51 /* iPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iPlayerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		3B3D46C314A4293A0080C643 /* VideoDecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B3D46BC14A4293A0080C643 /* VideoDecode.cpp */; };
+		3B672AEC149F6E3E003D5C5E /* libRtspParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B672AEB149F6E3E003D5C5E /* libRtspParser.a */; };
+		3B88C93B123F0A3700738C93 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B91DF7B120A66BE002A0446 /* Entitlements.plist */; };
+		3B997D991470F4EA009924B8 /* DisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B997D981470F4EA009924B8 /* DisplayView.m */; };
+		3B997DBA1470F6DB009924B8 /* RtspTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B997DB61470F6DB009924B8 /* RtspTestViewController.mm */; };
+		3B997DBB1470F6DB009924B8 /* RtspTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B997DB71470F6DB009924B8 /* RtspTestViewController.xib */; };
+		87DA77DE10105F75005379B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DA77DD10105F75005379B1 /* QuartzCore.framework */; };
+		C487C97B14AD721500E1BED7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C487C97A14AD721500E1BED7 /* libz.dylib */; };
+		C487C97D14AD725600E1BED7 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C487C97C14AD725600E1BED7 /* libstdc++.dylib */; };
+		C61C0DD4101E91840091D7F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C61C0DD3101E91840091D7F9 /* Default.png */; };
+		C620EF59100EEEA400423A4D /* icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C620EF58100EEEA400423A4D /* icon.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B55726E14E0F4580023BFA2 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../../../armv7/libavcodec.a; sourceTree = "<group>"; };
+		0B55727014E0F46B0023BFA2 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../armv7/libavformat.a; sourceTree = "<group>"; };
+		0B55727214E0F4C30023BFA2 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = ../../../../armv7/libavdevice.a; sourceTree = "<group>"; };
+		0B55727414E0F4CF0023BFA2 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../../../../armv7/libswscale.a; sourceTree = "<group>"; };
+		0B55727614E0F4DA0023BFA2 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../../../armv7/libavutil.a; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iPlayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPlayerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iPlayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPlayerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* iPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPlayer_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B07DBE2149E08740080BF4B /* us_parser_raw264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = us_parser_raw264.h; sourceTree = "<group>"; };
+		3B3D46BC14A4293A0080C643 /* VideoDecode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoDecode.cpp; sourceTree = "<group>"; };
+		3B3D46C214A4293A0080C643 /* VideoDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDecode.h; sourceTree = "<group>"; };
+		3B4E573A149AF14400E53EA9 /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdAfx.h; sourceTree = "<group>"; };
+		3B672AEB149F6E3E003D5C5E /* libRtspParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRtspParser.a; sourceTree = "<group>"; };
+		3B91DF7B120A66BE002A0446 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		3B997D971470F4EA009924B8 /* DisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayView.h; sourceTree = "<group>"; };
+		3B997D981470F4EA009924B8 /* DisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayView.m; sourceTree = "<group>"; };
+		3B997DAE1470F6DB009924B8 /* BosenVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BosenVect.h; sourceTree = "<group>"; };
+		3B997DAF1470F6DB009924B8 /* FrameList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameList.h; sourceTree = "<group>"; };
+		3B997DB11470F6DB009924B8 /* rtsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtsp.h; sourceTree = "<group>"; };
+		3B997DB21470F6DB009924B8 /* RtspParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspParser.h; sourceTree = "<group>"; };
+		3B997DB51470F6DB009924B8 /* RtspTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspTestViewController.h; sourceTree = "<group>"; };
+		3B997DB61470F6DB009924B8 /* RtspTestViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RtspTestViewController.mm; sourceTree = "<group>"; };
+		3B997DB71470F6DB009924B8 /* RtspTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RtspTestViewController.xib; sourceTree = "<group>"; };
+		87DA77DD10105F75005379B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C487C97A14AD721500E1BED7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C487C97C14AD725600E1BED7 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		C61C0DD3101E91840091D7F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C620EF58100EEEA400423A4D /* icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C487C97D14AD725600E1BED7 /* libstdc++.dylib in Frameworks */,
+				C487C97B14AD721500E1BED7 /* libz.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				87DA77DE10105F75005379B1 /* QuartzCore.framework in Frameworks */,
+				3B672AEC149F6E3E003D5C5E /* libRtspParser.a in Frameworks */,
+				0B55726F14E0F4580023BFA2 /* libavcodec.a in Frameworks */,
+				0B55727114E0F46B0023BFA2 /* libavformat.a in Frameworks */,
+				0B55727314E0F4C30023BFA2 /* libavdevice.a in Frameworks */,
+				0B55727514E0F4CF0023BFA2 /* libswscale.a in Frameworks */,
+				0B55727714E0F4DA0023BFA2 /* libavutil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B997DAA1470F6DB009924B8 /* H264 */,
+				3B997DAD1470F6DB009924B8 /* rtsp */,
+				3B997DB41470F6DB009924B8 /* test */,
+				1D3623240D0F684500981E51 /* iPlayerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iPlayerAppDelegate.m */,
+				3B997D971470F4EA009924B8 /* DisplayView.h */,
+				3B997D981470F4EA009924B8 /* DisplayView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* iPlayer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				C61C0DD3101E91840091D7F9 /* Default.png */,
+				C620EF58100EEEA400423A4D /* icon.PNG */,
+				8D1107310486CEB800E47090 /* Demo-Info.plist */,
+				3B91DF7B120A66BE002A0446 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C487C97C14AD725600E1BED7 /* libstdc++.dylib */,
+				C487C97A14AD721500E1BED7 /* libz.dylib */,
+				87DA77DD10105F75005379B1 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B997DAA1470F6DB009924B8 /* H264 */ = {
+			isa = PBXGroup;
+			children = (
+				0B55727614E0F4DA0023BFA2 /* libavutil.a */,
+				0B55727414E0F4CF0023BFA2 /* libswscale.a */,
+				0B55727214E0F4C30023BFA2 /* libavdevice.a */,
+				0B55727014E0F46B0023BFA2 /* libavformat.a */,
+				0B55726E14E0F4580023BFA2 /* libavcodec.a */,
+				3B3D46BC14A4293A0080C643 /* VideoDecode.cpp */,
+				3B3D46C214A4293A0080C643 /* VideoDecode.h */,
+			);
+			path = H264;
+			sourceTree = "<group>";
+		};
+		3B997DAD1470F6DB009924B8 /* rtsp */ = {
+			isa = PBXGroup;
+			children = (
+				3B672AEB149F6E3E003D5C5E /* libRtspParser.a */,
+				3B07DBE2149E08740080BF4B /* us_parser_raw264.h */,
+				3B4E573A149AF14400E53EA9 /* StdAfx.h */,
+				3B997DAE1470F6DB009924B8 /* BosenVect.h */,
+				3B997DAF1470F6DB009924B8 /* FrameList.h */,
+				3B997DB11470F6DB009924B8 /* rtsp.h */,
+				3B997DB21470F6DB009924B8 /* RtspParser.h */,
+			);
+			path = rtsp;
+			sourceTree = "<group>";
+		};
+		3B997DB41470F6DB009924B8 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				3B997DB51470F6DB009924B8 /* RtspTestViewController.h */,
+				3B997DB61470F6DB009924B8 /* RtspTestViewController.mm */,
+				3B997DB71470F6DB009924B8 /* RtspTestViewController.xib */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = iPlayer;
+			productReference = 1D6058910D05DD3D006BFB54 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = _MyCompanyName;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPlayer" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				zh_CN,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				C620EF59100EEEA400423A4D /* icon.PNG in Resources */,
+				C61C0DD4101E91840091D7F9 /* Default.png in Resources */,
+				3B88C93B123F0A3700738C93 /* Entitlements.plist in Resources */,
+				3B997DBB1470F6DB009924B8 /* RtspTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iPlayerAppDelegate.m in Sources */,
+				3B997D991470F4EA009924B8 /* DisplayView.m in Sources */,
+				3B997DBA1470F6DB009924B8 /* RtspTestViewController.mm in Sources */,
+				3B3D46C314A4293A0080C643 /* VideoDecode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPlayer_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/rtsp\"",
+					"\"$(SRCROOT)/../../armv7\"",
+				);
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = Demo;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SUN JIAN";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPlayer_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Classes/rtsp\"",
+					"\"$(SRCROOT)/../../armv7\"",
+				);
+				PRODUCT_NAME = vMEye;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CFFC80BF-67E1-4A51-9DA4-2325E1E3D9B9";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: SUN JIAN (6LCKLXHP79)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./ffmpeg;
+				INFOPLIST_FILE = "Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5C43ECCB-E236-4646-A362-82700E5551D4";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SUN JIAN";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ./ffmpeg;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				LIBRARY_SEARCH_PATHS = "";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CFFC80BF-67E1-4A51-9DA4-2325E1E3D9B9";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
